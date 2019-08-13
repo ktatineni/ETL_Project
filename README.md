@@ -27,9 +27,3 @@ After extracting the school data, we performed a count on unique school names fo
 # LOAD
 
 We then used PyMySQL client and the SQLAlchemy toolkit to load the cleaned data as MySQL.  We first created an engine using the single call ‘create_engine()’, then procured a connection resource to issue our SQL into the database using ‘engine.execute()’.  Finally, we viewed the result and printed it.
-
-…
-# Group Members: 
-Krishna Tatineni
-John Alexander Motes
-Annie Lai 
